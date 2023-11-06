@@ -25,10 +25,10 @@ Tadeu Henrique Vulcano, 2001687
 
 #### Os códigos para implementação do display LCD da versão final do projeto:
 
-Arquivo (lcd_api.py). -- arquivo lcd_api.py
+Arquivo (lcd_api.py). -- Código de base para a integração do display LCD. 
 
-Arquivo (pico.i2c_lcd.py). -- arquivo pico.i2c_lcd.py
+Arquivo (pico.i2c_lcd.py). -- Código que utiliza o base e faz a inserção dos caracteres no display. 
 
 #### E para a captura dos dados de temperatura, umidade e mostrar no LCD, segue arquivo:
 
-Arquivo (capt_temp_umid.py). -- código para a captura dos dados de temperatura, umidade e mostrar no LCD.
+Arquivo (capt_temp_umid.py). -- Código para a captura dos dados de temperatura, umidade e print no LCD. 
